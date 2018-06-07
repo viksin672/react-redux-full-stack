@@ -1,7 +1,7 @@
 {
   "name": "react-redux-todos",
   "version": "0.1.0",
-  "private": true,
+  "private": ,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -12,6 +12,7 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "proxy": "http://localhost:3001",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
